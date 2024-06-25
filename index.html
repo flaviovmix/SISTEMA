@@ -13,62 +13,110 @@
   </head>
   <body>
 
+    <!-- barra de menu -->
+    <header>
 
-    <!-- links de terceiros -->
-
-    <header >
-
-      <!-- barra de menus -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img class="img_logo" src="assets/0_logo.png" alt="">
-          </a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-
               <li class="nav-item">
-                <a class="nav-link" href="#">Campeonatos</a>
+                <img class="img_rede_social" src="assets/5_facebook.png" alt="">
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Times</a>
+                <img class="img_rede_social" src="assets/5_insta.png" alt="">
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pré-Incrição</a>
+                <img class="img_rede_social" src="assets/5_twitter.png" alt="">
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <img class="img_rede_social" src="assets/5_youtube.png" alt="">
               </li>
-
             </ul>
-            <div>
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">                    
-                    <svg fill="#000000" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M21.07,16.83,19,14.71a3.08,3.08,0,0,0-3.4-.57l-.9-.9a7,7,0,1,0-1.41,1.41l.89.89A3,3,0,0,0,14.71,19l2.12,2.12a3,3,0,0,0,4.24,0A3,3,0,0,0,21.07,16.83Zm-8.48-4.24a5,5,0,1,1,0-7.08A5,5,0,0,1,12.59,12.59Zm7.07,7.07a1,1,0,0,1-1.42,0l-2.12-2.12a1,1,0,0,1,0-1.42,1,1,0,0,1,1.42,0l2.12,2.12A1,1,0,0,1,19.66,19.66Z"/></svg>
-                    Pesquisar em:
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Digite sua busca aqui." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+              <input class="form-control me-2" type="search" placeholder="email" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="senha" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Entrar</button>
             </form>
           </div>
         </div>
       </nav>
 
     </header>
+    <!-- fim barra de menu -->
+
+    <!-- carrossel -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/1_copilot.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/1_products.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- fim carrossel -->
+
+    <!-- barra de navegacao -->
+    <nav class="navbar navbar-expand-lg barra__link">
+      <div class="container ">
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll barra__link__ul" style="--bs-scroll-height: 100px;">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">BID</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCUMENTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CAMPEONATOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TIMES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PUNIÇÕES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RANKING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">VAI E VEM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PATROCINADORES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MÍDIA </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRÉ-INSCRIÇÃO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTATO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- fim barra de navegacao -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
