@@ -1,4 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000; 
+    --cinza: #C0C0C0;
+    --cor-principal: #ff7b00;
+    --cor-secundaria: #00FFFF;
+    --cor-terciaria: #FF00FF;
+}
+
+body {
+    background-color: var(--branco);
 }
